@@ -30,14 +30,6 @@ class LimitSizeStream extends stream.Transform {
     } catch(err) {
       callback(err);
     }
-    // try{
-    //   console.log(chunk);
-    //   callback(null, chunk);
-    // } catch(err) {
-    //   callback(err);
-    // }
-
-
   }
 }
 
